@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange rate calculator</title>
+    <script src="https://kit.fontawesome.com/f8a59ed691.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel&family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+    
+        <div class="container">
+            <div class="front">
+                <h2>Exchange rate calculator
+            </h2>  <i class="fas fa-comments-dollar"></i>
+            </div>
+            <!-- MAIN BODY -->
+    
+          <main>
+              <div class="wrapper">
+                  <div class="section1">
+                       <h3>Currency you have:</h3>
+                       <select name="currency" id="currency1">
+                           <option value="ARS">ARS</option>
+                           <option value="EUR ">EUR</option>
+                           <option value="AUD">AUD</option>
+                           <option value="BNG">BNG</option>
+                           <option value="BRL">BRL</option>
+                           <option value="BSD">BSD</option>
+                           <option value="CAD">CAD</option>
+                           <option value="CHF">CHF</option>
+                           <option value="CLP">CLP</option>
+                           <option value="CNY">CNY</option>
+                           <option value="COP">COP</option>
+                           <option value="CZK">CZK</option>
+                           <option value="DKK">DKK</option>
+                           <option value="INR "selected>INR</option>
+                           <option value="USD">USD</option>
+                       </select>
+                       
+                       <input type="number" id="amount1" placeholder="Enter the amount" value="1" >
+                  </div>
+
+                  <div class="convert" >
+                    <div class="rate" id="rate"></div>
+                      <button id="conv">CONVERT</button>
+                      <div class="rate" id="rate"></div>
+                  </div>
+                  <div class="section2">
+                      <h3>Currency you want:</h3>
+                      <select name="currency" id="currency2">
+                        <option value="ARS">ARS</option>
+                        <option value="EUR "selected>EUR</option>
+                        <option value="AUD">AUD</option>
+                        <option value="BNG">BNG</option>
+                        <option value="BRL">BRL</option>
+                        <option value="BSD">BSD</option>
+                        <option value="CAD">CAD</option>
+                        <option value="CHF">CHF</option>
+                        <option value="CLP">CLP</option>
+                        <option value="CNY">CNY</option>
+                        <option value="COP">COP</option>
+                        <option value="CZK">CZK</option>
+                        <option value="DKK">DKK</option>
+                        <option value="INR ">INR</option>
+                        <option value="USD" selected>USD</option>
+    
+                      </select>
+                      <input type="number" id="amount2" placeholder="0"  >
+    
+    
+                  </div>
+              </div>
+          </main>
+        </div>
+
+      <!-- MAIN BODY ENDS -->
+       
+       
+    
+    
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
