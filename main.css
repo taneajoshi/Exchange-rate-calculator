@@ -124,3 +124,154 @@ button:hover{
   
 
 }
+
+@media(max-width:1099px){
+    main{
+        margin: 40px 40px 0px 50px;
+    }
+    .section1{
+        width: 30%;
+    
+    }
+    .section2{
+    width: 3%;
+    }
+    .convert{
+        width: 35%;
+        padding-left: 40px;
+        margin-bottom: 1px;
+    }
+    #rate.rate{
+        margin-left: 50px;
+    }
+    h2{
+        padding-left: 50px;
+    }
+    button{
+        margin-left: 80px;
+    }
+}
+@media(max-width:1099px){
+    main{
+        margin: 40px 10px 0px 20px;
+    }
+    .section1{
+        width: 30%;
+        margin-left: 2px;
+    
+    }
+    .section2{
+    width: 30%;
+    }
+    .convert{
+        width: 40%;
+        margin-bottom: 1px;
+        padding-left: 20px;
+    }
+    #rate.rate{
+        margin-left: 25px;
+    }
+    h2{
+        padding-left: 50px;
+    }
+    button{
+        margin-left: 60px;
+    }
+    h3{
+        font-size:15px;
+    }
+    input{
+        width: 95% ;
+    }
+    .wrapper{
+        margin-left: 20px;
+    }
+    .container{
+        margin: 20px;
+    }
+}
+
+@media(max-width:420px){
+    i{  
+        font-size:135px; 
+        margin-top: 5px;
+        margin-bottom: 4px;
+        padding-left: 89px;
+    } 
+
+    body{
+        overflow: scroll;
+      }
+      
+      main{
+          margin: 40px 10px 0px 20px;
+      }
+      .front{
+          display: block;
+      }
+      h2{
+       text-align: center;
+       font-size: 16px;
+       padding: 25px 1px 2px 1px;
+       width: 100%;
+       margin-left: 1px;
+      }
+     
+      main{
+          margin: 8px;
+      }
+      .wrapper{
+      display: block;
+      }
+      h3{
+          font-size: 16px;
+          font-weight: 800;
+          letter-spacing: 2px;
+      }
+      .section1{
+          width: 100%;
+      }
+      .section2{
+          width: 100%;
+          padding-bottom: 70px;
+      }
+      
+      .convert{
+          width: 100%;
+      }
+      select {
+      width: 80%;
+      }
+      button{
+          margin-left: 40px;
+          margin-top: 10px;
+          size: 30px;
+          color: white;
+          transition: transform 1s;
+      }
+      
+      button:hover{
+          transform: scale(1.09);
+        
+      }
+      input{
+          padding: 15px;
+          border: 1px solid grey;
+      }
+
+
+}
+@media(max-width:320px){
+    i{  
+        font-size:135px; 
+        margin-top: 5px;
+        margin-bottom: 4px;
+        padding-left: 48px;
+    } 
+    button{
+        margin-left: 25px;
+    }
+    #rate.rate{
+        margin-left: 10px;
+    }
+}
