@@ -9,9 +9,8 @@ let rateElem= document.getElementById('rate');
 function calculate(){
 const curren1 =currency1.value;
 const currenc2 =currency2.value;
-
 fetch(`https://prime.exchangerate-api.com/v5/cbc94e6cfdd25f33a2d9d49e/latest/${curren1}`).
-then(res => res.json()).   
+then(res => res.json()).
 then(data=>{
     const rate= data.conversion_rates[currenc2];
     rateElem.innerText= `1 ${curren1}= ${currenc2} ${rate}`;
@@ -21,10 +20,18 @@ then(data=>{
 
 });
 }
+
 //event handlers
 currency1.addEventListener('change', calculate);
 currency2.addEventListener('change', calculate);
 amount1.addEventListener('input', calculate);
 amount2.addEventListener('input', calculate);
+
+convertButton.addEventListener('click', ()=>{
+const temp=currency1.value;
+currency1.value= cuurency2.value;
+cuurency2.value=temp;
+calculate();
+});
 
 calculate();
