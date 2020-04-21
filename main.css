@@ -6,11 +6,6 @@ body{
 
    
 }
-
-.container{
-    margin-top: 10px;
-   
-}
 .front{
     display: flex;
 }
@@ -42,9 +37,10 @@ main{
     margin-top:40px;
 }
 .container{
+    margin-top: 10px;
     background-color: white;
     border-radius: 4px;
-    margin:50px;
+    margin:20px;
     padding: 10px;
 }
 .wrapper{
@@ -267,6 +263,9 @@ button:hover{
           border: 1px solid grey;
       }
 
+      .container{
+          margin: 8px;
+      }
 
 }
 @media(max-width:320px){
